@@ -87,6 +87,7 @@ html {
 .line {
     display: none; /*Linje som bliver anvendt i pc størrelse fjernes på mobil*/ 
 
+
 }
 
     
@@ -150,7 +151,6 @@ h1 {
 .underoverskrifttekstforside {
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: regular;
     color: #636161;
     text-align: center;
     margin: 0;
@@ -312,6 +312,7 @@ footer a{
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 100;
  
  
 
@@ -331,13 +332,14 @@ footer a{
 
 }
 
-.lineban {
-    color: #636161; /*Farve på linje under links*/
+hr.lineban {
     margin-left: auto;
     margin-right: auto; /*Centret i midten*/
     display: block;  /*Den kommer til at fylde, dvs. hvis ikke der stod block ville navigationsbaren "cutte" den af*/
     max-width: 90%; /*Bredde på linje*/
     margin-bottom: 0;
+    border: 0; 
+    border-top: 2.5px solid  #636161;/*Farve på linje under links*/
 }
 
 #sectionban02 {
@@ -354,6 +356,7 @@ footer a{
     text-align: center;
     font-size: 30px;
     margin: 5px;
+    font-weight: 100;
 }
 
 .banner {
@@ -370,6 +373,7 @@ footer a{
     text-align: center;
     font-size: 30px;
     margin: 5px;
+    font-weight: 100;
 }
 
 .banttr1 {
@@ -509,7 +513,12 @@ footer a{
     padding-left: 50px;
     padding-right: 50px;
     height: 200px;
+    border: 0;
     
+}
+
+.gifklip {
+    border: 0;
 }
 
 
@@ -534,6 +543,7 @@ footer a{
     font-size: 34px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 100;
 }
 
 #sectiondigitaltart01 {
@@ -814,13 +824,16 @@ transform: scale(1.5);
         margin-top: -15px; /*Placering af "digitalt art/koncepter" teskt*/
     }
 
-    .line {
+    hr.line {
         color: #FFFFFF; /*Farve på linje under links*/
+        border-color: #FFFFFF;
         margin-left: auto;
         margin-right: auto; /*Centret i midten*/
         display: block;  /*Den kommer til at fylde, dvs. hvis ikke der stod block ville navigationsbaren "cutte" den af*/
         max-width: 90%; /*Bredde på linje*/
         margin-bottom: 20px; /*Afstand fra bunden*/ 
+        border: 0; 
+        border-top: 3px solid #FFFFFF;
     }
 
     /*Når man tager musen over knapperne skifter de farve*/
